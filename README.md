@@ -25,13 +25,47 @@ Google Gemini 2.0 and real-time medical research via DuckDuckGo search.
 | Streamlit | Web interface |
 | Pillow | Image preprocessing |
 
-## How to Run Locally
-1. Clone this repository
+
+## How to Reproduce This Project
+
+### Prerequisites
+- Python 3.10 or higher
+- A Google Gemini API key from https://aistudio.google.com
+
+### Step by Step
+
+1. **Clone the repository**
+```
    git clone https://github.com/Tsion-Woldeselassie/medical-imaging-ai
-2. Install dependencies
+   cd medical-imaging-ai
+```
+
+2. **Create a virtual environment**
+```
+   python -m venv venv
+   venv\Scripts\activate  # Windows
+   source venv/bin/activate  # Mac
+```
+
+3. **Install all dependencies**
+```
    pip install -r requirements.txt
-3. Add your Google API key in app.py
-4. Run the app
+```
+
+4. **Add your API key**
+   - Open `app.py`
+   - Replace the GOOGLE_API_KEY value with your own key from aistudio.google.com
+
+5. **Run the app**
+```
+   streamlit run app.py
+```
+
+6. **Open your browser**
+   - Go to http://localhost:8501
+   - Upload a medical image using the sidebar
+   - Click Analyze Image
+5. Run the app
    streamlit run app.py
 
 ## ⚠️ Disclaimer
