@@ -27,7 +27,7 @@ Google Gemini 2.0 and real-time medical research via DuckDuckGo search.
 
 ## How to Run Locally
 1. Clone this repository
-   git clone https://github.com/yourusername/medical-imaging-ai
+   git clone https://github.com/Tsion-Woldeselassie/medical-imaging-ai
 2. Install dependencies
    pip install -r requirements.txt
 3. Add your Google API key in app.py
